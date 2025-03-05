@@ -1,0 +1,12 @@
+[package]
+name = "SecuICS"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }  # Async runtime
+warp = "0.3"  # Web API (optional for remote control)
+serde = { version = "1", features = ["derive"] }  # Data serialization
+rumqttc = "0.21"  # MQTT for industrial communication
+tracing = "0.1"  # Logging system
+anyhow = "1.0"   # Error handling
