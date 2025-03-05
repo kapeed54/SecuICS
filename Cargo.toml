@@ -10,3 +10,4 @@ serde = { version = "1", features = ["derive"] }  # Data serialization
 rumqttc = "0.21"  # MQTT for industrial communication
 tracing = "0.1"  # Logging system
 anyhow = "1.0"   # Error handling
+tracing-subscriber = "0.3"
